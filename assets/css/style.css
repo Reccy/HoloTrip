@@ -137,12 +137,12 @@ section {
 
     #video-sec .overlay {
         background-color: rgba(0, 0, 0, 0.85);
-        min-height: 300px;
+        min-height: 600px;
         color: #fff;
     }
 
     #video-sec h1 {
-        padding-top: 80px;
+        padding-top: 200px;
         font-size: 50px;
         font-weight: 900;
         padding-bottom: 30px;
