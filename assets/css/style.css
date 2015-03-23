@@ -130,17 +130,44 @@ section {
 /*================================
     VIDEO SECTION STYLES
 ==================================*/
+#home-video-sec {
+    color: #fff;
+    text-align: center;
+}
+
+    #home-video-sec .overlay {
+        background-color: rgba(0, 0, 0, 0.85);
+        min-height: 600px;
+        color: #fff;
+    }
+	
+    #home-video-sec h1 {
+        padding-top: 200px;
+        font-size: 100px;
+        font-weight: 900;
+        padding-bottom: 30px;
+    }
+	
+	#home-video-sec a {
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	#home-video-sec a:hover,#home-video-sec a:visited,#home-video-sec a:active{
+		font-weight: bold;
+	}
+
 #video-sec {
     color: #fff;
     text-align: center;
 }
 
-    #video-sec .overlay {
+    #video-sec .overlay:before {
         background-color: rgba(0, 0, 0, 0.85);
-        min-height: 600px;
+        min-height: 300px;
         color: #fff;
     }
-
+	
     #video-sec h1 {
         padding-top: 200px;
         font-size: 50px;

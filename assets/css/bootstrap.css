@@ -6161,6 +6161,14 @@ button.close {
   .visible-xs-block {
     display: block !important;
   }
+  #home-video-sec .overlay{
+	min-height: 300px !important;
+	max-height: 300px !important;
+  }
+  #home-video-sec h1{
+	font-size: 50px !important;
+	padding-top: 100px !important;
+  }
 }
 @media (max-width: 767px) {
   .visible-xs-inline {
@@ -6185,6 +6193,9 @@ button.close {
   th.visible-sm,
   td.visible-sm {
     display: table-cell !important;
+  }
+  #home-video-sec .overlay{
+	min-height: 300px !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -6230,6 +6241,9 @@ button.close {
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-inline-block {
     display: inline-block !important;
+  }
+  #home-video-sec .overlay{
+	min-height: 400px !important;
   }
 }
 @media (min-width: 1200px) {
