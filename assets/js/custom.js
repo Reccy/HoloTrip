@@ -27,4 +27,11 @@ $(document).ready(function () {
         $(function () {
             $(".player").mb_YTPlayer(); // .player - class to add for playing video ( see the div above to understand)
         });
+	// FIX ANIMATION BLACK LINE
+		$(function () {
+			$("#animation" ).on("load", function() {
+				$("#animation").css("left", "-1");
+				$("#animation").css("top", "-1");
+			})
+		});
 });
