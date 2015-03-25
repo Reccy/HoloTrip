@@ -34,4 +34,19 @@ $(document).ready(function () {
 				$("#animation").css("top", "-1");
 			})
 		});
+		
+		
+});
+
+//SWAP DIVS ON RESIZE
+$(window).resize(function () {
+	if($(window).width() < 991){
+		$('.bottomdiv:parent').each(function () {
+			$(this).insertBefore($(this).prev('.topdiv'));
+		});
+	} else {
+		$('.topdiv:parent').each(function () {
+			$(this).insertBefore($(this).prev('.bottomdiv'));
+		});
+	}
 });
