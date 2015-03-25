@@ -62,9 +62,28 @@ section {
     HOME SECTION STYLES
 ==================================*/
 
+#home-play{
+	background: url(../img/vrgame.jpg) no-repeat center center; /*Full Witdth background image*/
+}
+
+#home-work{
+	background: url(../img/home.jpg) no-repeat center center; /*Full Witdth background image*/
+}
+
+#home-about{
+	background: url(../img/home.jpg) no-repeat center center; /*Full Witdth background image*/
+}
+
+#home-together{
+	background: url(../img/home.jpg) no-repeat center center; /*Full Witdth background image*/
+}
+
+#home-explore{
+	background: url(../img/home.jpg) no-repeat center center; /*Full Witdth background image*/
+}
+
 /*STYLE OF BACKGROUND IMAGE*/
-#home {
-    background: url(../img/home.jpg) no-repeat center center; /*Full Witdth background image*/
+#home, #home-play, #home-work, #home-about, #home-together, #home-explore {
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -72,14 +91,14 @@ section {
     min-height: 600px;
 }
     /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
-    #home .overlay {
+    #home .overlay, #home-play .overlay, #home-work .overlay, #home-about .overlay, #home-together .overlay, #home-explore .overlay {
         padding-top: 90px;
         background-color: rgba(35, 133, 161,0.75); /*.75 opacity of the color so that background image is visible*/
         min-height: 600px;
         color: #fff;
     }
 
-    #home h1 {
+    #home h1, #home-play h1, #home-work h1, #home-about h1, #home-together h1, #home-explore h1 {
         padding-top: 80px;
         font-weight: 900;
         font-size: 100px;
