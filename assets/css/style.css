@@ -63,7 +63,7 @@ section {
 ==================================*/
 
 #home-play{
-	background: url(../img/vrgame.jpg) no-repeat center center; /*Full Witdth background image*/
+	background: url(../img/fighterjet.jpg) no-repeat center center; /*Full Witdth background image*/
 }
 
 #home-work{
@@ -117,7 +117,7 @@ section {
 =========================================*/
 
 .parallax-like {
-    background: url(../img/stats.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
+    background: url(../img/binary.png) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
