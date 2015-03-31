@@ -153,7 +153,15 @@ section {
 .portfolio-item a:hover div{
 	color: #999;
 }
-
+/*================================
+    PLAY BUTTON
+==================================*/
+.playButton{
+	opacity: 0.8;
+}
+.playButton:hover{
+	opacity: 1;
+}
 /*================================
     VIDEO SECTION STYLES
 ==================================*/

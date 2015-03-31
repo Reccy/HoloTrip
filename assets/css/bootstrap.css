@@ -6162,8 +6162,8 @@ button.close {
     display: block !important;
   }
   #home-video-sec .overlay{
-	min-height: 300px !important;
-	max-height: 300px !important;
+	min-height: 500px !important;
+	max-height: 500px !important;
   }
   #home-video-sec h1{
 	font-size: 50px !important;
@@ -6195,7 +6195,7 @@ button.close {
     display: table-cell !important;
   }
   #home-video-sec .overlay{
-	min-height: 300px !important;
+	min-height: 400px !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
